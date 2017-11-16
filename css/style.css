@@ -1,0 +1,156 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+path {
+  fill: white; /* transition: fill, 1s; */
+}
+
+/*
+.metropolitana { fill: #b6defc; transition: fill, 1s;}
+.metropolitana:hover {fill:gray; transition: fill, 1s;}
+.noroestefluminense { fill: #fcbbd6; transition: fill, 1s;}
+.noroestefluminense:hover {fill:gray; transition: fill, 1s;}
+.nortefluminense { fill: #bdfcf9; transition: fill, 1s;}
+.nortefluminense:hover {fill:gray; transition: fill, 1s;}
+.serrana { fill: #fce5b6; transition: fill, 1s;}
+.serrana:hover {fill:gray; transition: fill, 1s;}
+.baixadaslitoraneas { fill: #f2d4fc; transition: fill, 1s;}
+.baixadaslitoraneas:hover {fill:gray; transition: fill, 1s;}
+.medioparaiba { fill: #b9b8fc; transition: fill, 1s;}
+.medioparaiba:hover {fill:gray; transition: fill, 1s;}
+.centro-sul { fill: #f2d4fc; transition: fill, 1s;}
+.centro-sul:hover {fill:gray; transition: fill, 1s;}
+.costaverde { fill: #b6fcb9; transition: fill, 1s;}
+.costaverde:hover {fill:gray; transition: fill, 1s;}
+*/
+
+.topImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo {
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  fill: black;
+  stroke: none;
+  font-weight: bold;
+}
+
+.titulo1 {
+  font-size: 20px;
+  font-family: Tahoma, sans-serif;
+  fill: black;
+  stroke: none;
+  /*  font-weight: bold; */
+}
+
+.myTip {
+  display: table-cell;
+  vertical-align: middle;
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  color: white;
+  background-color: black;
+  padding: .5em;
+  text-shadow: #f5f5f5 0 1px 0;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+rect.clk {
+  stroke:#ffffff;
+  fill:#ffffff;
+  fill-opacity:0;
+  stroke-opacity:0;
+}
+
+.legenda {
+  font-size: 11px;
+  fill: black;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.mapa {
+  width: 65%;
+  height: 0;
+  padding-top: 41%;
+  position: relative;
+}
+
+.municipio {
+/*  fill: none; */
+  stroke: #808080;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+circle {
+  fill: black;
+  stroke: none;
+/*
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  */
+}
+
+.hist {
+  width: 65%;
+  height: 0;
+  padding-top: 41%;
+  position: relative;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 960px;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  /*  fill: steelblue; */
+  fill-opacity: .9;
+}
+
+.x.axis path {
+  display: none;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
